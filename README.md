@@ -1,30 +1,30 @@
 📚 Student Management System (Java)
-
 📌 Project Overview
 
 The Student Management System is a console-based Java application developed using core Object Oriented Programming (OOP) concepts.
 It allows users to manage student records by adding and viewing student details such as roll number, name, age, and course through a menu-driven interface.
- Demonstrates practical implementation of OOP principles in Java.
 
-🎯 Objectives:
+This mini project is developed as part of OOP’s Lab – Supplementary Assessment (Experiment 8) and demonstrates practical implementation of OOP principles in Java.
 
--To design a modular Java application using OOP concepts
+🎯 Objectives
 
--To understand real-world usage of classes, inheritance, interfaces, packages, and exception handling
+To design a modular Java application using OOP concepts
 
--To build a menu-driven console application
+To understand real-world usage of classes, inheritance, interfaces, packages, and exception handling
 
-🧩 OOP Concepts Used :
+To build a menu-driven console application
 
--Classes and Objects – Person, Student, StudentService
+🧩 OOP Concepts Used
 
--Inheritance – Student class extends Person
+Classes and Objects – Person, Student, StudentService
 
--Interface – Manageable interface implemented by StudentService
+Inheritance – Student class extends Person
 
--Packages – Organized code into model, service, exception, and main
+Interface – Manageable interface implemented by StudentService
 
--Exception Handling – Custom and built-in exceptions to handle invalid inputs
+Packages – Organized code into model, service, exception, and main
+
+Exception Handling – Custom and built-in exceptions to handle invalid inputs
 
 🗂 Project Structure
 StudentManagementSystem/
@@ -46,24 +46,31 @@ StudentManagementSystem/
 └── README.md
 
 ▶️ How to Compile and Run
-
 Prerequisites
 
 Java JDK installed (JDK 17 or above)
+
 Command Prompt / Terminal or VS Code
 
-Steps:
+Steps
+
 Open terminal inside the project folder
 
 Compile the program:
+
 javac main/MainApp.java
 
+
 Run the program:
+
 java main.MainApp
 
 🖥 Sample Features
 
-1)Add student details
-2)View all student records
-3)Handles invalid input using exception handling
-4)Menu-driven console interface
+Add student details
+
+View all student records
+
+Handles invalid input using exception handling
+
+Menu-driven console interface
